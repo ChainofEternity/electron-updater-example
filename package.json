@@ -1,9 +1,9 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "main": "main.js",
   "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "author": "Terry Chen",
   "scripts": {
     "publish": "electron-builder -p always"
   },
@@ -21,11 +21,11 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "ChainofEternity",
-        "repo": "electron-updater-example"
+        "owner": "niahclanrete",
+        "repo": "electron-updater-release-test"
       }
     ],
-    "appId": "com.github.ChainofEternity.electronupdaterexample",
+    "appId": "com.github.niahclanrete.electronupdaterexample",
     "afterSign": "./build/notarize.js",
     "mac": {
       "category": "your.app.category.type"
